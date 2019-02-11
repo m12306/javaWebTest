@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test9:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/test9_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="test9/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test9" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.18.RELEASE" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java web/实验八、九、十/实验九  SpringMVC/mybatis-3.4.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/Desktop/java web/实验八、九、十/实验九  SpringMVC/mybatis-spring-1.3.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

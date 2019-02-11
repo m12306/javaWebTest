@@ -1,0 +1,46 @@
+.checkitem {
+  display: flex;
+  flex-direction: row;
+}
+.check {
+  flex: 1;
+}
+.main{
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+.price{
+  color: #ff463c;
+  font-weight:bold;
+  font-size: 1.2em;
+}
+.submitOrder{
+  position: fixed;
+  width: 100%;
+  bottom:50px;
+}
+.book {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .bookImg {
+    flex: 1;
+    img {
+      display: block;
+      // height: 100%;
+      width: 70%;
+      box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+    }
+  }
+  .bookInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .rate {
+      color: #e09015;
+    }
+  }
+
+
+}

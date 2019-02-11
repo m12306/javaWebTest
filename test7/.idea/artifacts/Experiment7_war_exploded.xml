@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Experiment7:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Experiment7_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Experiment7/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Experiment7" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="E:/Resources/external jar/jackson-annotations-2.9.7.jar" />
+          <element id="file-copy" path="E:/Resources/external jar/jackson-core-2.9.7.jar" />
+          <element id="file-copy" path="E:/Resources/external jar/jackson-databind-2.9.7.jar" />
+          <element id="file-copy" path="E:/Resources/external jar/sqlite-jdbc-3.21.0.1.jar" />
+          <element id="library" level="module" name="sqlite-jdbc-3.21.0.1" module-name="Experiment7" />
+          <element id="library" level="project" name="jackson-annotations-2.9.7" />
+          <element id="library" level="project" name="jackson-databind-2.9.7" />
+          <element id="library" level="project" name="jackson-core-2.9.7" />
+          <element id="library" level="project" name="sqlite-jdbc-3.21.0.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
